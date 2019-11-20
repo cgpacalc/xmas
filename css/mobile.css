@@ -66,8 +66,12 @@ left:160px;
     font-size:13px
 }
 .rate{
-    display:block;
-    text-align: center;
+    display:flex;
+    justify-content:left;
+}	
+.deal h1{
+    font-size: 54px;
+    letter-spacing: 2px;
 }
 .delivery{
     display: flex;
