@@ -1,0 +1,165 @@
+@media (max-width: 1028px){
+	#logo{
+
+    font-size:15px;
+    margin-left:8px;
+    font-weight: lighter;  
+}
+#logo img{
+	width:calc(100% - 66%);
+}
+.search{
+position: relative;
+top:-25px;
+left:70px;
+}
+input{
+	width:100px;
+}
+.container{
+    height:auto;
+    }
+.container h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: 'Berkshire Swash', cursive!important;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#2E1B27;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 10px;       
+}
+
+.letter{
+    font-size: 20px;
+    display:block;
+    margin:  40px 0 60px 0;
+}
+.container a{
+    color:#2E1B27;
+    text-decoration: none;
+    padding: 12px 18px;
+    background:white;
+    border-radius: 20px;
+    font-weight: 100;
+}
+.card a{
+    color:#2E1B27;
+    font-family: 'Berkshire Swash', cursive!important;
+    font-size:30px;
+}
+
+button{
+    padding:12px 20px;
+    border-radius:20px;
+    background:none;
+    border:1px solid #62CA71;
+    color:white;
+    cursor:pointer;
+    font-size:13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin:15px 0;
+}
+.deal{
+    
+    display: flex;
+    flex-direction: column;
+}
+.contact_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2{
+	margin: 30px;
+}
+.about_content img{
+    margin:0;
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.about_content h1,.contact h1{
+    font-size: 36px;
+    font-weight:400;
+    line-height:52.8px;
+    font-family:'Berkshire Swash', cursive!important;
+    text-align: center;
+    margin-top:50px;
+}
+.first{
+     font-size: 25px;
+    font-weight:400;
+    font-family:'Berkshire Swash', cursive!important;
+}
+.second{
+    font-size:13px;
+    line-height:19.5px;
+}
+.deal{
+    padding-left: 10px;
+}
+.deal h1{
+    font-size: 60px;
+    letter-spacing: 0;
+}
+.deal img{
+	width:calc(100% - 50%);
+}
+.deal_today{
+    margin-left: 10px;
+}
+.deal_today p{
+    margin-top: 50px;
+    font-size:18px;
+    line-height: 1.3em;
+}
+.shipping{
+    width:50%;
+}
+.delivery img{
+	width:calc(100% - 60%);
+}
+.shipping h1{
+    font-size:35px;
+    font-family: 'Berkshire Swash', cursive!important;
+    color:#D63434;
+}
+.shipping p{
+    margin-top: 13px;
+    font-weight: 100;
+    line-height: 1.3em;
+}
+
+.detail_button{
+    padding:10px 25px;
+    font-size:13px;
+
+}
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.subscribe_button{
+	text-decoration: none;
+	background: #62CA71;
+	color: white;
+	padding: 10px 70px;
+	border-radius: 20px;
+	text-align: center;
+} 
+.title{
+    color: #2E1B27;
+    font-size: 30px;
+    font-weight:lighter;
+    line-height:52.8px;
+    font-family:'Berkshire Swash', cursive!important;
+}
+}
+

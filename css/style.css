@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family:
+    Arimo, sans-serif;
+}
+.social_media{
+	display: flex;
+	
+}
+.social_media li{
+	margin-left: 20px;
+}
+.login{
+    background:#D63434;
+    height:40px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 540;
+}
+.login li{
+    list-style-type: none;
+    color:white;
+} 
+.logo_left{
+    float: left;
+    font-family: 'Berkshire Swash', cursive!important;
+    color:#2E1B27;
+    margin-left:15px;
+    font-weight: 100;
+}
+.search{
+position: relative;
+top:-25px;
+left:110px;
+}
+
+nav{
+	font-weight: 600;
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#2E1B27;
+    font-size: 16px;  
+ 
+     
+}
+nav ul li a:hover{
+	color:#D63434;
+	transition:.5s;
+}
+.container a:hover{
+	background: #D63434;
+	color: white;
+	transition:.5s;
+}
+.section .description a:hover{
+	text-decoration: none;
+	transition:.5s;
+}
+button:hover{
+	background:#62CA71;
+	transition:.5s;
+}
+.detail_button:hover{
+    background:#62CA71;
+    transition:.5s;
+}
+.subscribe_button:hover{
+	background:#48AC57;
+	transition:.5s;
+}
+.about_button:hover{
+    background:#48AC57;
+    transition:.5s;
+}
+input{
+    display: flex;
+    outline: none;
+    border: none;
+    background:#ECEEF3;
+    border-radius:20px;
+    width:150px;
+    height:35px;
+}
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+#logo {
+	display: block;
+	padding: 0 20px;
+	float: left;
+	font-size:20px;
+}nav ul {
+	float: right;
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	}
+nav ul li {
+	margin: 0px;
+	display:inline-block;
+	float: left;
+	background-color: white;
+	height: 50px;
+	}
+nav a {
+	display:block;
+	padding:14px 20px;	
+	color:#2E1B27;
+	font-size:17px;
+	text-decoration:none;
+}
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 60px; 
+}
+nav ul li:hover > ul {
+	display:inherit;
+
+}
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+	margin-left: -50px;
+
+}
+nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	right:170px; 
+    font-size:13px;
+}
+
+.ximg1{
+    background-image: url('../images/xmas1.jpg');
+    /*height:100vh;*/
+    padding-bottom: 100px;
+    
+}
+.ximg2{
+    background-image: url('../images/para2.jpg');
+    height:auto;
+}
+.ximg1,.ximg2,.deal{
+    background-size:cover;
+     background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:center center; /*make it as center*/
+}
+.container{
+   color: white;
+   font-weight: 100;
+   text-align: center;
+   padding-top:50px;
+  
+}
+.container h1{
+    font-size: 140px;
+    letter-spacing: 5px;
+    font-family: 'Berkshire Swash', cursive!important;
+}
+.letter{
+    font-size: 30px;
+    display:block;
+    margin:  40px 0 100px 0;
+}
+.container a{
+    color:#2E1B27;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+    background:white;
+    border-radius: 20px;
+    font-weight: 100;
+}
+.section{
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width:100%;
+    
+}
+
+.card img{
+margin:2.5%;
+  border-radius:50%;
+  width:90%;
+}
+.card a{
+    color:#2E1B27;
+    font-family: 'Berkshire Swash', cursive!important;
+    font-size:40px;
+}
+.card p{
+    font-weight: 100;
+    margin:10px;
+    opacity:0.5;
+}
+.container_1{
+    padding-top:75px;
+
+}
+.container_1 h1{
+    display:flex;
+    font-size:44px;
+    letter-spacing: 2px;
+    color:white;
+    font-family: 'Berkshire Swash', cursive!important;
+    align-items: center;
+    
+}
+.container_1 h1::before,.container_1 h1::after{
+   content:"";
+   background: gray;
+   flex:1;
+   height:2px;
+   margin:50px;
+}
+.product_name{
+    opacity:.5;
+}
+
+.price{
+    color:white;
+}
+button{
+    padding:15px 35px;
+    border-radius:20px;
+    background:none;
+    border:1px solid #62CA71;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin:15px 0;
+}
+.gallery img{
+	width:100%;
+}
+
+.container_2{
+    margin-left:50px;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-column-gap: 2%;
+}
+
+.section2{
+   display: grid;
+   /*width:100%;*/
+   grid-template-columns: 70% 30%;
+   grid-column-gap: 20px;
+   margin: 100px;
+}
+.about{
+    background-image: url('../images/about.jpg');
+    height:auto;
+    background-repeat: no-repeat;  
+}
+.about_content img{
+    margin-left:200px;
+}
+.about_content h1,.contact h1{
+    font-size: 44px;
+    font-weight:400;
+    line-height:52.8px;
+    font-family:'Berkshire Swash', cursive!important;
+    text-align: center;
+    margin-top:50px;
+}
+.divide{
+    display: grid;
+    grid-template-columns:20% 60%; 
+    align-items: center;
+    
+}
+.first{
+     font-size: 31px;
+    font-weight:400;
+    font-family:'Berkshire Swash', cursive!important;
+}
+.second{
+    font-size:15px;
+    line-height:22.5px;
+}
+.about_button{
+    background:#62CA71;
+    margin-left:150px;
+    margin-bottom: 50px;
+}
+.contact{
+    background-image: url('../images/contact.jpg');
+    background-repeat: no-repeat;
+}
+.contact_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details li{
+     font-weight:600;
+     margin:30px;
+     line-height:22.5px;
+     font-size:15px;
+    list-style: none;
+}
+.deal{
+    padding-left: 100px;
+     background-image: url('../images/deal_back.jpg');
+    height: auto;
+    display: flex;
+    color:white;
+    align-items: center;
+}
+.deal h1{
+    color: #62CA71;
+    font-size: 90px;
+    letter-spacing: 5px;
+    font-family: 'Berkshire Swash', cursive!important;
+}
+.deal_today{
+    margin-left: 100px;
+    width:50%;
+}
+.deal_today p{
+    margin-top: 50px;
+    font-size:25px;
+}
+.rate .shop_button{
+    background:#62CA71;
+    margin-left:5%;
+}
+.rate .shop_button:hover{
+    background:#48AC57;
+    
+}
+.rate{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.delivery{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('../images/smog.jpg');
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+.shipping{
+    width:40%;
+}
+.shipping h1{
+    font-size:45px;
+    font-family: 'Berkshire Swash', cursive!important;
+    color:#D63434;
+}
+.shipping p{
+    margin-top: 50px;
+    font-weight: 100;
+    line-height: 1.3em;
+}
+.payment{
+    padding: 20px;
+    color: white;
+    background: #2E1B27;
+    display: flex;
+    justify-content: space-around;
+}
+.detail_button{
+    text-decoration: none;
+    padding:15px 35px;
+    border-radius:20px;
+    background:none;
+    border:1px solid #62CA71;
+    color:white;
+    font-size:16px;
+    letter-spacing: 2px;
+}
+.footer{
+    width:80%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer li{
+    list-style: none;
+    color: #5E4F58;
+    text-align: left;
+    line-height:33.6px;
+    font-weight:700;
+    opacity: .5;
+}
+.part3{
+	margin-right:200px;
+	width:25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.part3 h1,.part3 p,.part3 input,.part3 a{
+	margin-top:20px;
+}
+.part3 input{
+    width:100%;
+}
+.subscribe_button{
+	text-decoration: none;
+	background: #62CA71;
+	color: white;
+	padding: 15px 85px;
+	border-radius: 20px;
+	text-align: center;
+}
+ input[type="text"]::placeholder {   
+        text-align: center; 
+ } 
+.title{
+    color: #2E1B27;
+    font-size: 35px;
+    font-weight:lighter;
+    line-height:52.8px;
+    font-family:'Berkshire Swash', cursive!important;
+
+}
+footer{
+    background: #D63434;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 1;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+
